@@ -14,166 +14,232 @@
 	<link rel="stylesheet" type="text/css" href="css/all.css">
 </head>
 <body>
-<div class="view-wrap">
+	<div class="view-wrap">
 <!-- begin Address Info Tab -->
 	<div class="grid-12 gutter-10">
-	<div class="span-4">
-	<fieldset>
-	  <legend>Billing Address</legend>
-	  <form>
-	    <ul>
-	      <li>
-	        <label>Contact*</label>
-	        <input type="text">
-	      </li>
-	      <li>
-					<label>Address Line 1 (Street)</label>
-	        <input type="text">
-	      </li>
-				<li>
-					<label>Address Line 2 (Mailing)</label>
-					<input type="text">
-				</li>
-			</ul>
-			<ul class="grid-3 gutter-10">
-			<li class='span-1'>
-				<label>City</label>
-				<input type="text">
-			</li>
-			<li class='span-1'>
-				<label>State</label>
-				<select name="state">
-				<option value="AL">AL</option>
-				<option value="AK">AK</option>
-				<option value="AZ">AZ</option>
-				<option value="AR">AR</option>
-				<option value="CA">CA</option>
-				<option value="CO">CO</option>
-				<option value="CT">CT</option>
-				<option value="DE">DE</option>
-				<option value="DC">DC</option>
-				<option value="FL">FL</option>
-				<option value="GA">GA</option>
-				<option value="HI">HI</option>
-				<option value="ID">ID</option>
-				<option value="IL">IL</option>
-				<option value="IN">IN</option>
-				<option value="IA">IA</option>
-				<option value="KS">KS</option>
-				<option value="KY">KY</option>
-				<option value="LA">LA</option>
-				<option value="ME">ME</option>
-				<option value="MD">MD</option>
-				<option value="MA">MA</option>
-				<option value="MI">MI</option>
-				<option value="MN">MN</option>
-				<option value="MS">MS</option>
-				<option value="MO">MO</option>
-				<option value="MT">MT</option>
-				<option value="NE">NE</option>
-				<option value="NV">NV</option>
-				<option value="NH">NH</option>
-				<option value="NJ">NJ</option>
-				<option value="NM">NM</option>
-				<option value="NY">NY</option>
-				<option value="NC">NC</option>
-				<option value="ND">ND</option>
-				<option value="OH">OH</option>
-				<option value="OK">OK</option>
-				<option value="OR">OR</option>
-				<option value="PA">PA</option>
-				<option value="RI">RI</option>
-				<option value="SC">SC</option>
-				<option value="SD">SD</option>
-				<option value="TN">TN</option>
-				<option value="TX">TX</option>
-				<option value="UT">UT</option>
-				<option value="VT">VT</option>
-				<option value="VA">VA</option>
-				<option value="WA">WA</option>
-				<option value="WV">WV</option>
-				<option value="WI">WI</option>
-				<option value="WY">WY</option>
-				</select>
-			</li>
-			<li class='span-1'>
-				<label>Zipcode</label>
-				<input type="text">
-			</li>
-		</ul>
-			<ul>
-				<li>
-					<label>Country</label>
-					<input type="text">
-				</li>
-	      <li>
-	        <input type="submit">
-	      </li>
-	    </ul>
-	  </form>
-	</fieldset>
-
-	<br /><br />
-	<form>
-		<ul>
-			<li class="float50">
-				<label for="tel" >Phone </label>
-				<input type="tel" id="tel" name="tel" />
-			</li>
-			<li class="float50">
-				<label for="tel" > Fax </label>
-				<input type="tel" id="tel" name="fax" />
-			</li>
-			<br />
-			<li style="clear: both;">
-				<label for="email"> Email </label>
-				<input type="email" id="email" name="email" placeholder="name@example.com" />
-			</li>
-		</ul>
-	</form>
-	</div>
-	<div class="span-2">
-		<a class="button-lightgray smaller">Copy</a>
-	</div>
-	<div class="span-4">
-	<fieldset>
-		<legend>Shipping Address</legend>
-		<form>
-			<ul>
-				<li>
-					<label>First Name</label>
-					<input type="text">
-				</li>
-				<li>
-					<label>Last Name</label>
-					<input type="text">
-				</li>
-				<li>
-					<label>Email Address</label>
-					<input type="email" required>
-				</li>
-				<li>
-					<label>Address</label>
-					<textarea></textarea>
-				</li>
-				<li>
-					<input type="submit">
-				</li>
-			</ul>
-		</form>
-	</fieldset>
-	<br /><br />
-	<form>
-		<ul>
-			<li class="float50">
-				<label for="tel" >Shipping Phone </label>
-				<input type="tel" id="tel" name="tel" />
-			</li>
-		</u/>
-	</form>
-	</div>
-	<div class="span-2">
-	</div>
+		<div class="span-4">
+			<fieldset>
+				<legend>Billing Address</legend>
+				<form>
+					<ul>
+						<li>
+							<label>Contact*</label>
+							<input type="text">
+						</li>
+						<li>
+							<label>Address Line 1 (Street)</label>
+							<input type="text">
+						</li>
+						<li>
+							<label>Address Line 2 (Mailing)</label>
+							<input type="text">
+						</li>
+					</ul>
+					<ul class="grid-3 gutter-10">
+						<li class='span-1'>
+							<label>City</label>
+							<input type="text">
+						</li>
+						<li class='span-1'>
+							<label>State</label>
+							<select name="state">
+								<option value="AL">AL</option>
+								<option value="AK">AK</option>
+								<option value="AZ">AZ</option>
+								<option value="AR">AR</option>
+								<option value="CA">CA</option>
+								<option value="CO">CO</option>
+								<option value="CT">CT</option>
+								<option value="DE">DE</option>
+								<option value="DC">DC</option>
+								<option value="FL">FL</option>
+								<option value="GA">GA</option>
+								<option value="HI">HI</option>
+								<option value="ID">ID</option>
+								<option value="IL">IL</option>
+								<option value="IN">IN</option>
+								<option value="IA">IA</option>
+								<option value="KS">KS</option>
+								<option value="KY">KY</option>
+								<option value="LA">LA</option>
+								<option value="ME">ME</option>
+								<option value="MD">MD</option>
+								<option value="MA">MA</option>
+								<option value="MI">MI</option>
+								<option value="MN">MN</option>
+								<option value="MS">MS</option>
+								<option value="MO">MO</option>
+								<option value="MT">MT</option>
+								<option value="NE">NE</option>
+								<option value="NV">NV</option>
+								<option value="NH">NH</option>
+								<option value="NJ">NJ</option>
+								<option value="NM">NM</option>
+								<option value="NY">NY</option>
+								<option value="NC">NC</option>
+								<option value="ND">ND</option>
+								<option value="OH">OH</option>
+								<option value="OK">OK</option>
+								<option value="OR">OR</option>
+								<option value="PA">PA</option>
+								<option value="RI">RI</option>
+								<option value="SC">SC</option>
+								<option value="SD">SD</option>
+								<option value="TN">TN</option>
+								<option value="TX">TX</option>
+								<option value="UT">UT</option>
+								<option value="VT">VT</option>
+								<option value="VA">VA</option>
+								<option value="WA">WA</option>
+								<option value="WV">WV</option>
+								<option value="WI">WI</option>
+								<option value="WY">WY</option>
+							</select>
+						</li>
+						<li class='span-1'>
+							<label>Zipcode</label>
+							<input type="text">
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<label>Country</label>
+							<input type="text">
+						</li>
+						<li>
+							<input type="submit">
+						</li>
+					</ul>
+				</form>
+			</fieldset>
+			<form>
+				<ul class="grid-2 gutter-20">
+					<li class="span-1">
+						<label for="tel" >Phone </label>
+						<input type="tel" id="tel" name="tel" />
+					</li>
+					<li class="span-1">
+						<label for="tel" > Fax </label>
+						<input type="tel" id="tel" name="fax" />
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<label for="email"> Email </label>
+						<input type="email" id="email" name="email" placeholder="name@example.com" />
+					</li>
+				</ul>
+			</form>
+		</div>
+		<div class="span-2">
+			<a class="button-lightgray smaller">Copy</a>
+		</div>
+		<div class="span-4">
+			<fieldset>
+				<legend>Billing Address</legend>
+				<form>
+					<ul>
+						<li>
+							<label>Contact*</label>
+							<input type="text">
+						</li>
+						<li>
+							<label>Address Line 1 (Street)</label>
+							<input type="text">
+						</li>
+						<li>
+							<label>Address Line 2 (Mailing)</label>
+							<input type="text">
+						</li>
+					</ul>
+					<ul class="grid-3 gutter-10">
+						<li class='span-1'>
+							<label>City</label>
+							<input type="text">
+						</li>
+						<li class='span-1'>
+							<label>State</label>
+							<select name="state">
+								<option value="AL">AL</option>
+								<option value="AK">AK</option>
+								<option value="AZ">AZ</option>
+								<option value="AR">AR</option>
+								<option value="CA">CA</option>
+								<option value="CO">CO</option>
+								<option value="CT">CT</option>
+								<option value="DE">DE</option>
+								<option value="DC">DC</option>
+								<option value="FL">FL</option>
+								<option value="GA">GA</option>
+								<option value="HI">HI</option>
+								<option value="ID">ID</option>
+								<option value="IL">IL</option>
+								<option value="IN">IN</option>
+								<option value="IA">IA</option>
+								<option value="KS">KS</option>
+								<option value="KY">KY</option>
+								<option value="LA">LA</option>
+								<option value="ME">ME</option>
+								<option value="MD">MD</option>
+								<option value="MA">MA</option>
+								<option value="MI">MI</option>
+								<option value="MN">MN</option>
+								<option value="MS">MS</option>
+								<option value="MO">MO</option>
+								<option value="MT">MT</option>
+								<option value="NE">NE</option>
+								<option value="NV">NV</option>
+								<option value="NH">NH</option>
+								<option value="NJ">NJ</option>
+								<option value="NM">NM</option>
+								<option value="NY">NY</option>
+								<option value="NC">NC</option>
+								<option value="ND">ND</option>
+								<option value="OH">OH</option>
+								<option value="OK">OK</option>
+								<option value="OR">OR</option>
+								<option value="PA">PA</option>
+								<option value="RI">RI</option>
+								<option value="SC">SC</option>
+								<option value="SD">SD</option>
+								<option value="TN">TN</option>
+								<option value="TX">TX</option>
+								<option value="UT">UT</option>
+								<option value="VT">VT</option>
+								<option value="VA">VA</option>
+								<option value="WA">WA</option>
+								<option value="WV">WV</option>
+								<option value="WI">WI</option>
+								<option value="WY">WY</option>
+							</select>
+						</li>
+						<li class='span-1'>
+							<label>Zipcode</label>
+							<input type="text">
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<label>Country</label>
+							<input type="text">
+						</li>
+						<li>
+							<input type="submit">
+						</li>
+					</ul>
+				</form>
+			</fieldset>
+			<form>
+				<ul class="grid-2 gutter-20">
+					<li class="span-1">
+						<label for="tel" >Shipping Phone </label>
+						<input type="tel" id="tel" name="tel" />
+					</li>
+				</ul>
+			</form>
+		</div>
+		<div class="span-2">
+		</div>
 	</div>
 
 <br><br><br><br>
@@ -181,138 +247,137 @@
 <!-- begin Additional Info tab -->
 	<div class="grid-10 gutter-20">
 		<div class="span-4">
-
 			<form>
-			<div class="cushion">
-			<input type="checkbox" id="test_checkbox_1" name="test_checkbox_1" />
-			<label for="test_checkbox_1">Active</label>
-			<span style="float: right">
-				<label for="date"> Date Entered</label>
-				<input type="date" id="date" name="date" />
-			</span>
-			<br />
-			<input type="checkbox" id="test_checkbox_2" name="test_checkbox_2" />
-			<label for="test_checkbox_2">PO Required</label>
-			<br />
-			</div>
+				<div class="grid-2 gutter-20">
+					<div class="span-1">
+						<input type="checkbox" id="test_checkbox_1" name="test_checkbox_1" />
+						<label for="test_checkbox_1">Active</label>
+						<br />
+						<input type="checkbox" id="test_checkbox_2" name="test_checkbox_2" />
+						<label for="test_checkbox_2">PO Required</label>
+						<br />
+					</div>
+					<div class="span-1">
+						<label for="date"> Date Entered</label>
+						<input type="date" id="date" name="date" />
+					</div>
+				</div>
 
-			<div class="cushion">
-			<div class = "grid-3 gutter-10">
-				<div class = "span-1">
-				<label for="select_dd"> Type</label>
-				<br />
-				<select id="select_dd" name="select_dd">
-					<option value="1">Agriculture</option>
-					<option value="2">Another choice could be here</option>
-					<option value="3">Yet another item to be chosen</option>
-				</select>
+				<div class = "grid-3 gutter-10">
+					<div class = "span-1">
+						<label for="select_dd"> Type</label>
+						<br />
+						<select id="select_dd" name="select_dd">
+							<option value="1">Agriculture</option>
+							<option value="2">Another choice could be here</option>
+							<option value="3">Yet another item to be chosen</option>
+						</select>
+					</div>
+					<div class = "span-1">
+						<label for="select_dd"> Default Salesperson</label>
+						<br />
+						<select id="select_dd" name="select_dd">
+							<option value="4">Support</option>
+							<option value="5">Another choice could be here</option>
+							<option value="6">Yet another item to be chosen</option>
+						</select>
+					</div>
+					<div class="span-1">
+						<label for="password"> Driver License Number</label>
+						<br />
+						<input type="password" />
+					</div>
 				</div>
-				<div class = "span-1">
-				<label for="select_dd"> Default Salesperson</label>
-				<br />
-				<select id="select_dd" name="select_dd">
-					<option value="4">Support</option>
-					<option value="5">Another choice could be here</option>
-					<option value="6">Yet another item to be chosen</option>
-				</select>
+
+				<div class = "grid-3 gutter-20">
+					<div class = "span-2">
+						<label for="url">Web Page:</label>
+						<br />
+						<input type="url" id="url" name="url" value="http://" />
+					</div>
+					<div class = "span-1">
+						<label for="url"></label>
+						<br />
+						<input type="button" value="Open Page" />
+					</div>
 				</div>
-				<div class="span-1">
-					<label for="password"> Driver License Number</label>
+
+				<p>
+					<label for="textarea">
+						Notes
+					</label>
 					<br />
-					<input type="password" />
-				</div>
+					<textarea id="textarea" name="textarea" rows="10" placeholder="This is an example of HTML5 placeholder text."></textarea>
+				</p>
 			</div>
-			</div>
-
-			<div class="cushion">
-			<div class = "grid-3 gutter-20">
-				<div class = "span-2">
-				<label for="url">Web Page:</label>
-				<br />
-				<input type="url" id="url" name="url" value="http://" />
-				</div>
-				<div class = "span-1">
-				<input type="button" value="Open Page" />
-				</div>
-			</div>
-			</div>
-
-			<p>
-			<label for="textarea">
-			Notes
-			</label>
-			<br />
-			<textarea id="textarea" name="textarea" rows="10" placeholder="This is an example of HTML5 placeholder text."></textarea>
-			</p>
-		</div>
 		</form>
 
 		<div class="span-6">
 			<input type="button" value="Open Page" /><input type="button" value="Open Page" /><input type="button" value="Open Page" />
 			<table class="flakes-table">
-			<colgroup>
-				<col span="1" style="width:20px" />
-				<col span="1" style="width:40%" />
-			</colgroup>
-			<thead>
-				<tr>
-					<td class="company">Option</td>
-					<td class="contact">Value</td>
-					<td class="city">Show In</td>
-					<td class="name">Type</td>
-				</tr>
-			</thead>
-			<tbody class="list">
-				<tr>
-				  <td class="company"><a href="#">Dolor Fusce</a></td>
-				  <td class="contact">654-1816</td>
-				  <td class="city">Eritrea</td>
-				  <td class="name">Daquan Parks</td>
-				</tr>
-				<tr>
-				  <td class="company"><a href="#">Eu Sem Pellentesque</a></td>
-				  <td class="contact">937-5793</td>
-				  <td class="city">Macao</td>
-				  <td class="name">Mechelle Kirkland</td>
-				</tr>
-				<tr>
-				  <td class="company"><a href="#">Maecenas</a></td>
-				  <td class="contact">682-9676</td>
-				  <td class="city">Bahamas</td>
-				  <td class="name">Warren Morales</td>
-				</tr>
-				<tr>
-				  <td class="company"><a href="#">Augue Porttitor</a></td>
-				  <td class="contact">389-1087</td>
-				  <td class="city">Luxembourg</td>
-				  <td class="name">Steven Madden</td>
-				</tr>
-				<tr>
-				  <td class="company"><a href="#">Dapibus</a></td>
-				  <td class="contact">893-7857</td>
-				  <td class="city">Fiji</td>
-				  <td class="name">Sierra Morton</td>
-				</tr>
-				<tr>
-				  <td class="company"><a href="#">Eleifend</a></td>
-				  <td class="contact">1-783-967-8521</td>
-				  <td class="city">Martinique</td>
-				  <td class="name">Maia Ayers</td>
-				</tr>
-				<tr>
-				  <td class="company"><a href="#">Tincidunt</a></td>
-				  <td class="contact">486-7965</td>
-				  <td class="city">Malawi</td>
-				  <td class="name">Ruth Lee</td>
-				</tr>
-				<tr>
-				  <td class="company"><a href="#">Et</a></td>
-				  <td class="contact">462-2201</td>
-				  <td class="city">Malawi</td>
-				  <td class="name">Noel Langley</td>
-				</tr>
-			</tbody>
-		</table>
+				<colgroup>
+					<col span="1" style="width:20px" />
+					<col span="1" style="width:40%" />
+				</colgroup>
+				<thead>
+					<tr>
+						<td class="company">Option</td>
+						<td class="contact">Value</td>
+						<td class="city">Show In</td>
+						<td class="name">Type</td>
+					</tr>
+				</thead>
+				<tbody class="list">
+					<tr>
+						<td class="company"><a href="#">Dolor Fusce</a></td>
+						<td class="contact">654-1816</td>
+						<td class="city">Eritrea</td>
+						<td class="name">Daquan Parks</td>
+					</tr>
+					<tr>
+						<td class="company"><a href="#">Eu Sem Pellentesque</a></td>
+						<td class="contact">937-5793</td>
+						<td class="city">Macao</td>
+						<td class="name">Mechelle Kirkland</td>
+					</tr>
+					<tr>
+						<td class="company"><a href="#">Maecenas</a></td>
+						<td class="contact">682-9676</td>
+						<td class="city">Bahamas</td>
+						<td class="name">Warren Morales</td>
+					</tr>
+					<tr>
+						<td class="company"><a href="#">Augue Porttitor</a></td>
+						<td class="contact">389-1087</td>
+						<td class="city">Luxembourg</td>
+						<td class="name">Steven Madden</td>
+					</tr>
+					<tr>
+						<td class="company"><a href="#">Dapibus</a></td>
+						<td class="contact">893-7857</td>
+						<td class="city">Fiji</td>
+						<td class="name">Sierra Morton</td>
+					</tr>
+					<tr>
+						<td class="company"><a href="#">Eleifend</a></td>
+						<td class="contact">1-783-967-8521</td>
+						<td class="city">Martinique</td>
+						<td class="name">Maia Ayers</td>
+					</tr>
+					<tr>
+						<td class="company"><a href="#">Tincidunt</a></td>
+						<td class="contact">486-7965</td>
+						<td class="city">Malawi</td>
+						<td class="name">Ruth Lee</td>
+					</tr>
+					<tr>
+						<td class="company"><a href="#">Et</a></td>
+						<td class="contact">462-2201</td>
+						<td class="city">Malawi</td>
+						<td class="name">Noel Langley</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 	</div>
 <!-- begin Payment Info tab -->
@@ -321,6 +386,6 @@
 
 
 
-</div>
+	</div>
 </body>
 </html>

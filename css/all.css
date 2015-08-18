@@ -7199,15 +7199,4 @@ table.flakes-table {
       table.flakes-table.responsive tr td:nth-child(1) {
         display: table-cell; } }
 
-.float33 {
-  float: left;
-  width: 33%; }
-
-.float50 {
-  float: left;
-  width: 50%; }
-
-.cushion {
-  padding-bottom: 15px; }
-
 /*# sourceMappingURL=all.css.map */
