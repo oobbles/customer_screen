@@ -7199,8 +7199,12 @@ table.flakes-table {
       table.flakes-table.responsive tr td:nth-child(1) {
         display: table-cell; } }
 
-.float {
+.float33 {
   float: left;
   width: 33%; }
+
+.float50 {
+  float: left;
+  width: 50%; }
 
 /*# sourceMappingURL=all.css.map */
