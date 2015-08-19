@@ -90,7 +90,10 @@ var FlakesFrame = {
 		this.setupSnapping();
 	}
 };
-
+ //MY JS
+ if (!isMobileDevice) {
+ document.getElementById("baby").style.height = document.getElementById("mama").offsetHeight+"px";
+}
 // Initialize modules when DOM is ready
 jQuery(function() {
 	FlakesFrame.init();

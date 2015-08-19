@@ -6296,6 +6296,7 @@ form textarea {
   border: 1px solid;
   border-radius: 2px;
   cursor: pointer;
+  margin: 5px;
   -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
   background: #47494f;
@@ -6368,6 +6369,7 @@ form textarea {
   border: 1px solid;
   border-radius: 2px;
   cursor: pointer;
+  margin: 5px;
   -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
   background: #d5452f;
@@ -6440,6 +6442,7 @@ form textarea {
   border: 1px solid;
   border-radius: 2px;
   cursor: pointer;
+  margin: 5px;
   -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
   background: #1097e6;
@@ -6512,6 +6515,7 @@ form textarea {
   border: 1px solid;
   border-radius: 2px;
   cursor: pointer;
+  margin: 5px;
   -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
   background: #f4902a;
@@ -6584,6 +6588,7 @@ form textarea {
   border: 1px solid;
   border-radius: 2px;
   cursor: pointer;
+  margin: 5px;
   -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
   background: #e8367f;
@@ -6656,6 +6661,7 @@ form textarea {
   border: 1px solid;
   border-radius: 2px;
   cursor: pointer;
+  margin: 5px;
   -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
   background: #3b5ca0;
@@ -6728,6 +6734,7 @@ form textarea {
   border: 1px solid;
   border-radius: 2px;
   cursor: pointer;
+  margin: 5px;
   -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
   background: #9966cb;
@@ -6800,6 +6807,7 @@ form textarea {
   border: 1px solid;
   border-radius: 2px;
   cursor: pointer;
+  margin: 5px;
   -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
   background: #b83d6a;
@@ -6872,6 +6880,7 @@ form textarea {
   border: 1px solid;
   border-radius: 2px;
   cursor: pointer;
+  margin: 5px;
   -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
   background: #47494f;
@@ -6944,6 +6953,7 @@ form textarea {
   border: 1px solid;
   border-radius: 2px;
   cursor: pointer;
+  margin: 5px;
   -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
   background: #aaa;
@@ -7016,6 +7026,7 @@ form textarea {
   border: 1px solid;
   border-radius: 2px;
   cursor: pointer;
+  margin: 5px;
   -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
   background: #5ca934;
@@ -7198,5 +7209,21 @@ table.flakes-table {
       display: none; }
       table.flakes-table.responsive tr td:nth-child(1) {
         display: table-cell; } }
+
+@media screen and (min-width: 600px) {
+  .parent {
+    position: relative; }
+
+  .child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -62% 0 0 -25%; } }
+@media screen and (max-width: 599px) {
+  .child {
+    position: relative;
+    top: 50%; } }
 
 /*# sourceMappingURL=all.css.map */

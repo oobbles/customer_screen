@@ -16,7 +16,7 @@
 <body>
 	<div class="view-wrap">
 <!-- begin Address Info Tab -->
-	<div class="grid-12 gutter-10">
+	<div class="grid-12 gutter-10" id="mama">
 		<div class="span-4">
 			<fieldset>
 				<legend>Billing Address</legend>
@@ -131,8 +131,10 @@
 				</ul>
 			</form>
 		</div>
-		<div class="span-2">
-			<a class="button-lightgray smaller">Copy</a>
+		<div class="span-2 parent" id="baby">
+				<div class="child">
+					<a class="button-lightgray">Copy</a>
+				</div>
 		</div>
 		<div class="span-4">
 			<fieldset>
@@ -313,7 +315,7 @@
 		</form>
 
 		<div class="span-6">
-			<input type="button" value="Open Page" /><input type="button" value="Open Page" /><input type="button" value="Open Page" />
+			<input type="button" value="Add Option" /><input type="button" value="Edit Option" /><input type="button" value="Delete Option" />
 			<table class="flakes-table">
 				<colgroup>
 					<col span="1" style="width:20px" />
@@ -380,12 +382,48 @@
 			</table>
 		</div>
 	</div>
+	<br><br><br><br>
 <!-- begin Payment Info tab -->
+	<div class="grid-6 gutter-20">
+		<div class="span-2">
+			<div class="grid-2 gutter-20">
+				<div class="span-1">
+					<fieldset>
+					<legend>Payment Status</legend>
+					<form>
+						Things
+					</form>
+					</fieldset>
+				</div>
+				<div class="span-1">
+					Things
+				</div>
+			</div>
+		</div>
 
+		<div class="span-2">
+				A thing that spans two grids
+		</div>
 
+		<div class="span-2">
+			EMPTY
+		</div>
+
+	</div>
 
 
 
 	</div>
+
+
+
+		<link rel="stylesheet" type="text/css" href="bower_components/gridforms/gridforms/gridforms.css">
+
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/snapjs/snap.js"></script>
+		<script src="bower_components/responsive-elements/responsive-elements.js"></script>
+		<script src="bower_components/gridforms/gridforms/gridforms.js"></script>
+
+		<script src="js/base.js"></script>
 </body>
 </html>

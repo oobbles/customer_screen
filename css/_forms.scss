@@ -1,0 +1,21 @@
+
+  @media screen and (min-width:600px) {
+    .parent {
+      position: relative;
+    }
+
+    .child {
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        height: 30%;
+        width: 50%;
+        margin: -62% 0 0 -25%;
+      }
+  }
+  @media screen and (max-width:599px) {
+    .child {
+      position: relative;
+      top: 50%;
+    }
+  }
