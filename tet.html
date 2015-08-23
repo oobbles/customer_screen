@@ -391,18 +391,133 @@
 					<fieldset>
 					<legend>Payment Status</legend>
 					<form>
-						Things
+						<label for="password"> Last 30 Days </label> <br />
+						<input type="password" id="password" name="password" placeholder="$0.00" />
+						<label for="password"> 31 to 60 Days </label> <br />
+						<input type="password" id="password" name="password" placeholder="$0.00" />
+						<label for="password"> 61 to 90 days </label> <br />
+						<input type="password" id="password" name="password" placeholder="$0.00" />
+						<label for="password"> 91 to 120 days </label> <br />
+						<input type="password" id="password" name="password" placeholder="$0.00" />
+						<label for="password"> Over 120 Days </label> <br />
+						<input type="password" id="password" name="password" placeholder="$0.00" />
+						<label for="password"> Total Due </label> <br />
+						<input type="password" id="password" name="password" placeholder="$0.00" />
 					</form>
 					</fieldset>
 				</div>
+
 				<div class="span-1">
-					Things
+					<form>
+						<input type="checkbox" id="test_checkbox_1" name="test_checkbox_1" />
+						<label for="test_checkbox_1">Cash Only</label><br />
+						<label for="select_dd"> Tax Item </label>
+						<br />
+						<select id="select_dd" name="select_dd">
+							<option value="1">Sales Tax</option>
+							<option value="2">Another choice could be here</option>
+							<option value="3">Yet another item to be chosen</option>
+						</select>
+						<label for="password"> Tax Number </label> <br />
+						<input type="password" id="password" name="password" placeholder="$0.00" />
+						<label for="date"> Tax Expiration Date </label>
+						<br />
+						<input type="date" id="date" name="date" />
+						<label for="password"> Total Due </label> <br />
+						<input type="password" id="password" name="password" placeholder="$0.00" />
+						<label for="select_dd"> Default Price </label>
+						<br />
+						<select id="select_dd" name="select_dd">
+							<option value="1">List Price</option>
+							<option value="2">Another choice could be here</option>
+							<option value="3">Yet another item to be chosen</option>
+						</select>
+						<label for="password"> Percent of Price </label> <br />
+						<input type="password" id="password" name="password" placeholder="$0.00" />
+					</form>
+
 				</div>
 			</div>
 		</div>
 
 		<div class="span-2">
-				A thing that spans two grids
+			<fieldset>
+			<legend>Payment Methods</legend>
+				<table class="flakes-table">
+					<colgroup>
+						<col span="1" style="width:20px" />
+						<col span="1" style="width:40%" />
+					</colgroup>
+					<thead>
+						<tr>
+						  <td><input type="checkbox"></td>
+							<td>Product Name</td>
+							<td>SKU</td>
+							<td>City</td>
+							<td>Supplier</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+						  <td><input type="checkbox"></td>
+						  <td>Dolor Fusce</td>
+						  <td>654-1816</td>
+						  <td>Eritrea</td>
+						  <td>Daquan Parks</td>
+						</tr>
+						<tr>
+						  <td><input type="checkbox"></td>
+						  <td>Eu Sem Pellentesque</td>
+						  <td>937-5793</td>
+						  <td>Macao</td>
+						  <td>Mechelle Kirkland</td>
+						</tr>
+						<tr>
+						  <td><input type="checkbox"></td>
+						  <td>Maecenas</td>
+						  <td>682-9676</td>
+						  <td>Bahamas</td>
+						  <td>Warren Morales</td>
+						</tr>
+						<tr>
+						  <td><input type="checkbox"></td>
+						  <td>Augue Porttitor</td>
+						  <td>389-1087</td>
+						  <td>Luxembourg</td>
+						  <td>Steven Madden</td>
+						</tr>
+						<tr>
+						  <td><input type="checkbox"></td>
+						  <td>Dapibus</td>
+						  <td>893-7857</td>
+						  <td>Fiji</td>
+						  <td>Sierra Morton</td>
+						</tr>
+						<tr>
+						  <td><input type="checkbox"></td>
+						  <td>Eleifend</td>
+						  <td>1-783-967-8521</td>
+						  <td>Martinique</td>
+						  <td>Maia Ayers</td>
+						</tr>
+						<tr>
+						  <td><input type="checkbox"></td>
+						  <td>Tincidunt</td>
+						  <td>486-7965</td>
+						  <td>Malawi</td>
+						  <td>Ruth Lee</td>
+						</tr>
+						<tr>
+						  <td><input type="checkbox"></td>
+						  <td>Et</td>
+						  <td>462-2201</td>
+						  <td>Malawi</td>
+						  <td>Noel Langley</td>
+						</tr>
+					</tbody>
+				</table>
+				<a class="button-lightgray">Allow All</a>
+			</fielset>
 		</div>
 
 		<div class="span-2">
@@ -418,12 +533,10 @@
 
 
 		<link rel="stylesheet" type="text/css" href="bower_components/gridforms/gridforms/gridforms.css">
-
 		<script src="bower_components/jquery/dist/jquery.js"></script>
 		<script src="bower_components/snapjs/snap.js"></script>
 		<script src="bower_components/responsive-elements/responsive-elements.js"></script>
 		<script src="bower_components/gridforms/gridforms/gridforms.js"></script>
-
 		<script src="js/base.js"></script>
 </body>
 </html>
