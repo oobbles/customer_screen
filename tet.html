@@ -14,9 +14,19 @@
 	<link rel="stylesheet" type="text/css" href="css/all.css">
 </head>
 <body>
+	<ul id="tabs">
+		<li><a href="#address_info">Address Info</a></li>
+    <li><a href="#additional_info">Additional Info</a></li>
+    <li><a href="#payment_info">Payment Info</a></li>
+		<li><a href="#sales">Sales</a></li>
+    <li><a href="#quotes">Quotes</a></li>
+    <li><a href="#customer_units">Customer Units</a></li>
+	</ul>
 	<div class="view-wrap">
+
 <!-- begin Address Info Tab -->
-	<div class="grid-12 gutter-10" id="mama">
+	<div class="tabContent" id="address_info">
+	<div class="grid-12 gutter-10">
 		<div class="span-4">
 			<fieldset>
 				<legend>Billing Address</legend>
@@ -243,10 +253,10 @@
 		<div class="span-2">
 		</div>
 	</div>
-
-<br><br><br><br>
+	</div>
 
 <!-- begin Additional Info tab -->
+	<div class="tabContent" id="additional_info">
 	<div class="grid-10 gutter-20">
 		<div class="span-4">
 			<form>
@@ -382,8 +392,10 @@
 			</table>
 		</div>
 	</div>
-	<br><br><br><br>
+	</div>
+
 <!-- begin Payment Info tab -->
+	<div class="tabContent" id="payment_info">
 	<div class="grid-6 gutter-20">
 		<div class="span-2">
 			<div class="grid-2 gutter-20">
@@ -494,8 +506,11 @@
 		<div class="span-2">
 		</div>
 		</div>
-		<br><br><br><br>
+		</div>
+
+
 <!-- begin Sales tab -->
+		<div class="tabContent" id="sales">
 		<div class="grid-1">
 			<div class="span-1">
 				<div class="grid-4 gutter-20">
@@ -620,24 +635,97 @@
 							</tbody>
 						</table>
 						<br />
-						Line Items
 					</div>
 
 				<div class="span-1">
-					Big thing
+					Line Items
+					<table class="flakes-table">
+							<!-- <colgroup>
+								<col span="1" style="width:20px" />
+								<col span="1" style="width:40%" />
+							</colgroup> -->
+							<thead>
+								<tr>
+									<td>Tag #</td>
+									<td>Tracking #</td>
+									<td>Qty</td>
+									<td>Item</td>
+									<td>Description</td>
+									<td>Core</td>
+									<td>Price</td>
+									<td>Total</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>5</td>
+									<td>55</td>
+									<td>5</td>
+									<td>Thing</td>
+									<td>Thing Thing</td>
+									<td>?</td>
+									<td>5.50</td>
+									<td>10.50</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+						<a class="button-lightgray smaller">Reprint</a>
+						<a class="button-lightgray smaller">Void</a>
 				</div>
 			</div>
+		</div>
 		</div>
 
 
 <!-- begin Quotes tab -->
+		<div class="tabContent" id="quotes">
 		<div class="grid-1">
 			<div class="span-1">
 				<div class="grid-4 gutter-20">
 					<div class="span-1">
 						<label for="select_dd"> Date Range </label>
 							<select id="select_dd" name="select_dd">
-								<option value="1">Always</option>
+								<option value="1">This Month</option>
 								<option value="2">Another choice could be here</option>
 								<option value="3">Yet another item to be chosen</option>
 							</select>
@@ -654,13 +742,264 @@
 					</div>
 				</div>
 				<div class="span-1">
-					Big thing
+					<table class="flakes-table">
+							<!-- <colgroup>
+								<col span="1" style="width:20px" />
+								<col span="1" style="width:40%" />
+							</colgroup> -->
+							<thead>
+								<tr>
+									<td>Quote #</td>
+									<td>Date</td>
+									<td>Subtotal</td>
+									<td>Tax</td>
+									<td>Shipping</td>
+									<td>Total</td>
+									<td>Closed</td>
+									<td>Expires</td>
+									<td>Contact Name</td>
+									<td>Salesman</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>5.50</td>
+									<td>12/28/2014</td>
+									<td>5.50</td>
+									<td>0.00</td>
+									<td>0.00</td>
+									<td>10.00</td>
+									<td></td>
+									<td>12/12/2012</td>
+									<td>Name McName</td>
+									<td>Name McName</td>
+								</tr>
+								<tr>
+									<td>5.50</td>
+									<td>12/28/2014</td>
+									<td>5.50</td>
+									<td>0.00</td>
+									<td>0.00</td>
+									<td>10.00</td>
+									<td></td>
+									<td>12/12/2012</td>
+									<td>Name McName</td>
+									<td>Name McName</td>
+								</tr>
+								<tr>
+									<td>5.50</td>
+									<td>12/28/2014</td>
+									<td>5.50</td>
+									<td>0.00</td>
+									<td>0.00</td>
+									<td>10.00</td>
+									<td></td>
+									<td>12/12/2012</td>
+									<td>Name McName</td>
+									<td>Name McName</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
 				</div>
 				<div class="span-1">
-					Big thing
+					Line Items
+					<table class="flakes-table">
+							<!-- <colgroup>
+								<col span="1" style="width:20px" />
+								<col span="1" style="width:40%" />
+							</colgroup> -->
+							<thead>
+								<tr>
+									<td>Tag #</td>
+									<td>Tracking #</td>
+									<td>Qty</td>
+									<td>Item</td>
+									<td>Description</td>
+									<td>Core</td>
+									<td>Price</td>
+									<td>Total</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>5</td>
+									<td>55</td>
+									<td>5</td>
+									<td>Thing</td>
+									<td>Thing Thing</td>
+									<td>?</td>
+									<td>5.50</td>
+									<td>10.50</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+						<a class="button-lightgray smaller">Reprint</a>
+						<a class="button-lightgray smaller">Send To Invoice</a>
+						<a class="button-lightgray smaller">Close Quote</a>
 				</div>
 			</div>
 		</div>
+		</div>
+
+
+
+<!-- begin Customer Units tab -->
+		<div class="tabContent" id="customer_units">
+		<div class="grid-1">
+			<div class="span-1">
+				Customer Units
+				<table class="flakes-table">
+						<thead>
+							<tr>
+								<td>Make</td>
+								<td>Model</td>
+								<td>Color</td>
+								<td>Year</td>
+								<td>Description</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<select>
+									<option>Audi</option>
+									<option>Not Audi</option>
+									</select>
+								</td>
+								<td>modely</td>
+								<td>colory</td>
+								<td>1111</td>
+								<td>Thing Thing</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				<br />
+				Service
+				<table class="flakes-table">
+						<thead>
+							<tr>
+								<td>Date</td>
+								<td>Description</td>
+								<td>Quote #</td>
+								<td>Invoice #</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>11/12/2012</td>
+								<td>words words</td>
+								<td>22</td>
+								<td>22</td>
+							</tr>
+							<tr>
+								<td>11/12/2012</td>
+								<td>words words</td>
+								<td>22</td>
+								<td>22</td>
+							</tr>
+							<tr>
+								<td>11/12/2012</td>
+								<td>words words</td>
+								<td>22</td>
+								<td>22</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+			</div>
+		</div>
+		</div>
+
 	</div>
 		<link rel="stylesheet" type="text/css" href="bower_components/gridforms/gridforms/gridforms.css">
 		<script src="bower_components/jquery/dist/jquery.js"></script>
