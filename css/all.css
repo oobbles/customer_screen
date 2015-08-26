@@ -7225,12 +7225,10 @@ div.tabContent.hide {
   display: none; }
 
 ul#tabs {
-  text-align: center;
   list-style: none;
-  margin: 200px 0 20px;
+  margin: 50px,0, 20px;
   padding: 0;
   line-height: 24px;
-  height: 26px;
   overflow: hidden;
   font-size: 12px;
   font-family: verdana;
