@@ -16,7 +16,6 @@
 //    }
 ul#tabs li a.selected
 { color: #000;
-  background-color: #fff;
   font-weight: bold;
   padding: 0.7em 0.3em 0.38em 0.3em;
   }
@@ -63,7 +62,6 @@ ul#tabs li a {
     text-decoration: none;
 }
 ul#tabs li a.selected{
-    background: #FFF;
     color: #333;
     z-index: 2;
     border-bottom-color: #FFF;
