@@ -7275,5 +7275,7 @@ ul#tabs li a.selected {
   .child {
     position: relative;
     top: 50%; } }
+.scroll {
+  overflow: auto; }
 
 /*# sourceMappingURL=all.css.map */

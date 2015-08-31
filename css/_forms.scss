@@ -1,5 +1,4 @@
-
-  @media screen and (min-width:600px) {
+@media screen and (min-width:600px) {
     .parent {
       position: relative;
     }
@@ -13,9 +12,13 @@
         margin: -62% 0 0 -25%;
       }
   }
-  @media screen and (max-width:599px) {
+@media screen and (max-width:599px) {
     .child {
       position: relative;
       top: 50%;
     }
   }
+//to use on the tables because they don't resize
+.scroll {
+  overflow:auto
+}
